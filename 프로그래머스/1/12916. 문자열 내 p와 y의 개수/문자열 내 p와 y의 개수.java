@@ -18,7 +18,7 @@ class Solution {
         boolean answer = (countP == countY);
         
         System.out.println("Hello Java");
-
+ 
         return answer;
     }
 }
