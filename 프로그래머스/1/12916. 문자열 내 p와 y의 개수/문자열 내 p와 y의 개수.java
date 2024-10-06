@@ -9,17 +9,14 @@ class Solution {
         
         // 문자열을 순회하면서 p와 y의 개수를 셈
         for (char c : s.toCharArray()) {
-            if (c == 'p') {
-                countP++;
-            } else if (c == 'y') {
-                countY++;
-            }
+            if (c == 'p') countP++;
+            else if (c == 'y') countY++;
         }
         
         // p와 y의 개수가 같으면 true, 다르면 false
+        // boolean은 true, false 값만 가질 수 있는 논리형 데이터 타입
         boolean answer = (countP == countY);
         
-        // 디버깅용 출력 (원래 코드의 구조 유지)
         System.out.println("Hello Java");
 
         return answer;
